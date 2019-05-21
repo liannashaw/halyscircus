@@ -1,0 +1,114 @@
+@impor@import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Ewert|Fredericka+the+Great|Sancreek|Spectral+SC&display=swap');
+
+ * { outline: #161616 solid 8px; } */
+            
+body {
+    margin: 0px;
+}
+
+.menubar {
+    background-color: #4f0b0b;
+    height: 150px;
+    background-image: url(backroundstripes.jpg);  
+    background-position: center;
+    outline: none;
+}
+            
+.carousel {
+    background-color: #070707;
+    height: 300px;
+    background-image: url(IMG_0949.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+            
+.bookings {
+    background-color: #0c0c0c;
+    height: 300px;
+    margin-top: -48px;
+}
+
+#halyscircus {
+    background-image: url(halyscircus.PNG);
+    background-position: center;
+    height: 200px;
+    margin-top: -40px;
+    background-repeat: no-repeat;
+}
+            
+.acts {
+    background-color: #0e0321;
+    height: 300px;
+    margin-top: -48px;
+}
+
+#shows {
+    background-image: url(shows.PNG);
+    background-position: center;
+    height: 200px;
+    margin-top: -40px;
+    background-repeat: no-repeat;
+}
+            
+.prices {
+    background-color: #4f0b0b;
+    height: 300px;
+    margin-top: -48px;
+}
+
+#tickets {
+    background-image: url(tickets.PNG);
+    background-position: center;
+    height: 200px;
+    margin-top: -40px;
+    background-repeat: no-repeat;
+}
+            
+.contactus {
+    background-color: #fcedd1;
+    height: 300px;
+    margin-top: -48px;
+}
+            
+           
+p  {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 10px;
+    text-decoration-color: #fcedd1;
+    font-family: 'Ewert', cursive;
+}
+            
+            
+            
+.grey {
+    background-color: #161616;
+    height: 50px;
+}
+            
+            /* sm */
+            @media (min-width: 576px) {
+                
+            }
+            
+            /* md */
+            @media (min-width: 768px) {
+                 .carousel {
+                      height: 400px;
+                }
+            }
+            
+            /* lg */
+            @media (min-width: 992px) {
+                 .carousel {
+                      height: 500px;
+                }
+            }
+            
+            /* xl */
+            @media (min-width: 1200px) {
+                .carousel {
+                      height: 600px;
+                }
+                
+            }
