@@ -1,0 +1,48 @@
+<!DOCTYPE html/>
+
+<html>
+    <head>
+        <meta charset="utf-8" />    
+        <title> Haly's Circus - CONTACT US </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="halyscircus.css" href="css/bootstrap.min.css" />
+
+        
+    </head>
+    
+    <body>
+      <div class="container">
+        
+          <div class="row">
+              <div class="col-12 menubar">
+                    <div class="row">
+              <div class="col-12 menubar">
+                  <a class="homelink">HOME</a>
+                  <a class="bookingslink">BOOKINGS</a>
+                  <a class="actslink">ACTS</a>
+                  <a class="contactlink">CONTACT US</a>
+                  
+                  
+              </div>
+              </div>
+          </div>
+          
+         
+          <div class="contactpage">
+              <p> CONTACT US </p>
+          </div>
+        
+          
+          
+          <div class="row">
+              <div class="grey col-12">
+              
+              
+              </div>
+          </div>
+        
+      </div>
+    
+    </body>
+
+</html>
