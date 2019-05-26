@@ -1,15 +1,15 @@
-@impor@import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Ewert|Fredericka+the+Great|Sancreek|Spectral+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Ewert|Fredericka+the+Great|Sanchez|Sancreek|Spectral+SC&display=swap');
 
- * { outline: #161616 solid 8px; } */
+ * { outline: #161616 solid 8px; } 
             
 body {
-    margin: 0px;
+    margin: 0px;  
 }
 
 .menubar {
     background-color: #4f0b0b;
     height: 150px;
-    background-image: url(backroundstripes.jpg);  
+    background-image: url(backroundstripes.jpg);
     background-position: center;
     outline: none;
 }
@@ -22,10 +22,12 @@ body {
     background-repeat: no-repeat;
 }
             
-.bookings {
-    background-color: #0c0c0c;
+.shows {
+    background-color: #080808;
     height: 300px;
     margin-top: -48px;
+    background-image: url(vintagetexture.PNG);
+    background-blend-mode: overlay;
 }
 
 #halyscircus {
@@ -37,9 +39,11 @@ body {
 }
             
 .acts {
-    background-color: #0e0321;
+    background-color: #060314;
     height: 300px;
     margin-top: -48px;
+    background-image: url(vintagetexture.PNG);
+    background-blend-mode: overlay;
 }
 
 #shows {
@@ -51,9 +55,11 @@ body {
 }
             
 .prices {
-    background-color: #4f0b0b;
+    background-color: #1e0503;
     height: 300px;
     margin-top: -48px;
+    background-image: url(vintagetexture.PNG);
+    background-blend-mode: overlay;
 }
 
 #tickets {
@@ -65,26 +71,166 @@ body {
 }
             
 .contactus {
-    background-color: #fcedd1;
+    background-color: #d1c5a3;
     height: 300px;
     margin-top: -48px;
-}
+    background-image: url(vintagetexture.PNG);
+    background-blend-mode: overlay;
+}  
             
            
 p  {
     text-align: center;
     font-size: 3em;
     padding-top: 10px;
-    text-decoration-color: #fcedd1;
+    text-decoration-color: #d1c5a3;
     font-family: 'Ewert', cursive;
+    color: #d1c5a3;
+}
+
+#bookinginfo {
+    background-color: #d1c5a3;
+    background-image: url(vintagetexture.PNG);
+    background-blend-mode: overlay;
+}
+
+h1{
+    background-color: #4f0b0b;
+    font-size: 2em;
+    text-align: center;
+    margin: 5px;
+    color: #d1c5a3;
+    font-family: 'Sancreek', cursive;
+    padding-top: 5px;
+}
+
+.contactus p {
+    color: black;
+}
+
+h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+}
+
+.pricelist {
+    background-color: #060314;
+    height: 500px;
+    background-image: url(vintagetexture.PNG);
+    background-blend-mode: overlay;
+}
+
+.pricelist h1 {
+    background-color:  #060314;
+}
+
+.pricelist h2 {
+    font-family: 'Sanchez', serif;
+    font-size: 1em;
+    padding-top: 10px;
+    color: #d1c5a3;
+    text-align: center;
+}
+
+.pricelist p {
+    font-family: 'Sanchez', serif;
+    font-size: 0.8em;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
             
-            
-            
 .grey {
+    background-image: url(lightsborder.jpg);
     background-color: #161616;
     height: 50px;
 }
+
+.contactpage {
+    background-color: #d1c5a3;
+    height: 400px;
+    background-image: url(vintagetexture.PNG);
+    background-blend-mode: overlay;
+    margin-top: -40px;
+    
+}
+
+.contactpage p {
+    color: black;
+}
+
+.booknowlink {
+    background-color: #d1c5a3;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.8em;
+    background-image: url(vintagetexture.PNG);
+    background-blend-mode: overlay;
+}
+
+.booknowlink a {
+    text-decoration: none;
+    color: #060314;
+    background-color: #d1c5a3;
+}
+
+
+.boookingslink {
+    background-color: #060314;
+    height: 50px;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 1.8em;
+    background-image: url(vintagetexture.PNG);
+    background-blend-mode: overlay;
+    
+}
+
+.boookingslink a {
+    text-decoration: none;
+    color: #060314;
+    background-color: #d1c5a3;
+}
+
+.booknow {
+    background-color: #4f0b0b;
+    height: 300px;
+    background-image: url(vintagetexture.PNG);
+    background-blend-mode: overlay;
+    margin-top: -38px;
+}
+
+a {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 20px;
+    color: #060314;
+    font-family: 'Sanchez', serif;
+}
+
+.homelink {
+    background-color: #d1c5a3;
+}
+
+.bookingslink {
+    background-color: #4f0b0b;
+}
+
+.actslink {
+    background-color: #4f0b0b;
+}
+
+.contactlink {
+    background-color: #4f0b0b;
+}
+
+.container .row {
+    text-align: center;
+}
+
+
             
             /* sm */
             @media (min-width: 576px) {
@@ -93,22 +239,173 @@ p  {
             
             /* md */
             @media (min-width: 768px) {
-                 .carousel {
+                .menubar {
+                    height: 200px;
+                }
+                
+                a {
+                    font-size: 1.4em;
+                }
+                
+                .carousel {
                       height: 400px;
+                }
+                
+                h1 {
+                    height: 80px;
+                    font-size: 3em;
+                }
+                
+                h2 {
+                    height: 50px;
+                    font-size: 2em;
+                }
+                
+                .pricelist {
+                    height: 680px;
+                }
+                
+                .pricelist h2 {
+                    font-size: 1.6em;
+                    padding-top: 20px;
+                }
+                
+                .pricelist p {
+                    font-size: 1em;
+                }
+                
+                .contactpage {
+                    height: 500px;
+                }
+                
+                .booknowlink {
+                    height: 80px;
+                    font-size: 2.4em;
+                    padding-top: 33px;
+                }
+                
+                #bookinginfo h1 {
+                    padding-top: 15px;
+                }
+                
+                .boookingslink {
+                    height: 70px;
+                    padding-top: 20px;
+                    font-size: 2.5em;
                 }
             }
             
             /* lg */
             @media (min-width: 992px) {
-                 .carousel {
+                 .menubar {
+                    height: 200px;
+                }
+                
+                  a {
+                    font-size: 1.6em;
+                }
+                
+                .carousel {
                       height: 500px;
+                }
+                
+                 h1 {
+                    height: 80px;
+                    font-size: 3em;
+                }
+                
+                h2 {
+                    height: 50px;
+                    font-size: 2em;
+                }
+                .pricelist {
+                    height: 680px;
+                }
+                
+                .pricelist h2 {
+                    font-size: 1.6em;
+                    padding-top: 20px;
+                }
+                
+                .pricelist p {
+                    font-size: 1em;
+                }
+                
+                .contactpage {
+                    height: 500px;
+                }
+                
+                 .booknowlink {
+                    height: 80px;
+                    font-size: 2.4em;
+                    padding-top: 33px;
+                }
+                
+                 #bookinginfo h1 {
+                    padding-top: 15px;
+                }
+                
+                 .boookingslink {
+                    height: 70px;
+                    padding-top: 20px;
+                    font-size: 2.5em;
                 }
             }
             
             /* xl */
             @media (min-width: 1200px) {
+                .menubar {
+                    height: 200px;
+                }
+                
+                  a {
+                    font-size: 1.8em;
+                }
+                
                 .carousel {
                       height: 600px;
                 }
                 
+                 h1 {
+                    height: 80px;
+                    font-size: 3em;
+                }
+                
+                h2 {
+                    height: 50px;
+                    font-size: 2em;
+                }
+                
+                .pricelist {
+                    height: 680px;
+                }
+                
+                .pricelist h2 {
+                    font-size: 1.6em;
+                    padding-top: 20px;
+                }
+                
+                .pricelist p {
+                    font-size: 1em;
+                }
+                
+                .contactpage {
+                    height: 500px;
+                }
+                
+                 .booknowlink {
+                    height: 80px;
+                    font-size: 2.4em;
+                    padding-top: 33px;
+                }
+                
+                 #bookinginfo h1 {
+                    padding-top: 15px;
+                }
+                
+                 .boookingslink {
+                    height: 70px;
+                    padding-top: 20px;
+                    font-size: 2.5em;
+                }
             }
