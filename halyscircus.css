@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Ewert|Fredericka+the+Great|Sanchez|Sancreek|Spectral+SC&display=swap');
 
- * { outline: #161616 solid 8px; } 
+
+div {
+   outline: #161616 solid 8px; 
+}
             
 body {
     margin: 0px;  
@@ -11,7 +14,7 @@ body {
     height: 150px;
     background-image: url(backroundstripes.jpg);
     background-position: center;
-    outline: none;
+    padding-top: 10px;
 }
             
 .carousel {
@@ -34,8 +37,8 @@ body {
     background-image: url(halyscircus.PNG);
     background-position: center;
     height: 200px;
-    margin-top: -40px;
     background-repeat: no-repeat;
+    outline: none;
 }
             
 .acts {
@@ -50,8 +53,8 @@ body {
     background-image: url(shows.PNG);
     background-position: center;
     height: 200px;
-    margin-top: -40px;
     background-repeat: no-repeat;
+    outline: none;
 }
             
 .prices {
@@ -66,35 +69,56 @@ body {
     background-image: url(tickets.PNG);
     background-position: center;
     height: 200px;
-    margin-top: -40px;
     background-repeat: no-repeat;
+    outline: none;
 }
             
 .contactus {
     background-color: #d1c5a3;
     height: 300px;
-    margin-top: -48px;
     background-image: url(vintagetexture.PNG);
     background-blend-mode: overlay;
 }  
-            
-           
-p  {
+
+.contactus p {
     text-align: center;
     font-size: 3em;
-    padding-top: 10px;
-    text-decoration-color: #d1c5a3;
     font-family: 'Ewert', cursive;
     color: #d1c5a3;
+}
+           
+.shows a  {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Ewert', cursive;
+    color: #d1c5a3;
+    text-decoration: none;
+}
+
+.acts a  {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Ewert', cursive;
+    color: #d1c5a3;
+    text-decoration: none;
+}
+
+.prices a  {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Ewert', cursive;
+    color: #d1c5a3;
+    text-decoration: none;
 }
 
 #bookinginfo {
     background-color: #d1c5a3;
     background-image: url(vintagetexture.PNG);
     background-blend-mode: overlay;
+    height: 500px;
 }
 
-h1{
+#bookinginfo h1{
     background-color: #4f0b0b;
     font-size: 2em;
     text-align: center;
@@ -108,21 +132,28 @@ h1{
     color: black;
 }
 
-h2{
+#bookinginfo h2{
     margin-top: 5px;
     margin-bottom: 5px;
-    height: 30px;
+    height: 50px;
+    padding-left: 10px;
+    text-align: left;
 }
 
 .pricelist {
     background-color: #060314;
-    height: 500px;
+    height: 450px;
     background-image: url(vintagetexture.PNG);
     background-blend-mode: overlay;
+    margin-top: -12px;
+    
 }
 
 .pricelist h1 {
     background-color:  #060314;
+    color: #d1c5a3;
+    font-family: 'Sancreek', cursive;
+    text-align: center;
 }
 
 .pricelist h2 {
@@ -139,6 +170,7 @@ h2{
     text-align: left;
     padding-bottom: 10px;
     padding-left: 10px;
+    color: #d1c5a3;
 }
             
 .grey {
@@ -158,13 +190,16 @@ h2{
 
 .contactpage p {
     color: black;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Ewert', cursive;
 }
 
 .booknowlink {
     background-color: #d1c5a3;
     height: 50px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 17px;
     font-size: 1.8em;
     background-image: url(vintagetexture.PNG);
     background-blend-mode: overlay;
@@ -174,6 +209,7 @@ h2{
     text-decoration: none;
     color: #060314;
     background-color: #d1c5a3;
+    outline: #161616 solid 8px;
 }
 
 
@@ -196,41 +232,219 @@ h2{
 
 .booknow {
     background-color: #4f0b0b;
-    height: 300px;
+    height: 500px;
     background-image: url(vintagetexture.PNG);
     background-blend-mode: overlay;
     margin-top: -38px;
 }
 
-a {
+.booknow p {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Ewert', cursive;
+    color: #d1c5a3;
+    
+}
+
+.menubar a {
     padding-left: 15px;
     padding-right: 15px;
     height: 20px;
-    color: #060314;
     font-family: 'Sanchez', serif;
+    outline: #161616 solid 8px; 
+    text-decoration: none;
+    color: #060314;
 }
 
-.homelink {
-    background-color: #d1c5a3;
-}
-
-.bookingslink {
+.link {
     background-color: #4f0b0b;
 }
 
-.actslink {
-    background-color: #4f0b0b;
+.menubar a {
+    color: #d1c5a3;
 }
 
-.contactlink {
-    background-color: #4f0b0b;
+.link:hover {
+     background-color: #060314;
 }
 
 .container .row {
     text-align: center;
 }
 
+.actspage {
+    height: 70px;
+    background-color: #060314;
+    background-image: url(vintagetexture.PNG);
+    background-blend-mode: overlay;
+    margin-top: -35px;
+}
 
+.actspage p {
+    font-size: 3em;
+    font-family: 'Ewert', cursive;
+    color: #d1c5a3;;
+    text-align: center;
+}
+
+.aerialist {
+    background-image: url(aerialist.PNG);
+    height: 400px;
+    background-size:cover;
+    margin: 8px;
+}
+
+.aerialist p {
+    text-align: right;
+    padding-right: 10px;
+    color: #4f0b0b;
+    font-family: 'Sancreek', cursive;
+    font-size: 1.4em;
+}
+
+.animaltamer {
+    background-image: url(animaltamer.PNG);
+    height: 100px;
+    margin: 8px;
+    height: 400px;
+    background-size: cover;
+}
+
+.animaltamer p {
+    text-align: right;
+    padding-right: 10px;
+    color: #4f0b0b;
+    font-family: 'Sancreek', cursive;
+    font-size: 1.4em;
+}
+
+.beardedlady {
+    background-image: url(beardedlady.PNG);
+    height: 100px;
+    margin: 8px;
+    height: 400px;
+    background-size: cover;
+}
+
+.beardedlady p {
+    text-align: right;
+    padding-right: 10px;
+    color: #4f0b0b;
+    font-family: 'Sancreek', cursive;
+    font-size: 1.4em;
+}
+
+.clowns {
+    background-image: url(clowns.PNG);
+    height: 100px;
+    margin: 8px;
+    height: 400px;
+    background-size: cover;
+}
+
+.clowns p {
+    text-align: right;
+    padding-right: 10px;
+    color: #4f0b0b;
+    font-family: 'Sancreek', cursive;
+    font-size: 1.4em;
+}
+
+.contortion {
+    background-image: url(contortionists.PNG);
+    height: 100px;
+    margin: 8px;
+    height: 400px;
+    background-size: cover;
+}
+
+.contortion p {
+    text-align: right;
+    padding-right: 10px;
+    color: #4f0b0b;
+    font-family: 'Sancreek', cursive;
+    font-size: 1.4em;
+}
+
+.juggling {
+    background-image: url(juggling.PNG);
+    height: 100px;
+    margin: 8px;
+    height: 400px;
+    background-size: cover;
+}
+
+.juggling p {
+    text-align: right;
+    padding-right: 10px;
+    color: #4f0b0b;
+    font-family: 'Sancreek', cursive;
+    font-size: 1.4em;
+}
+
+.strongman {
+    background-image: url(strongman.PNG);
+    height: 100px;
+    margin: 8px;
+    height: 400px;
+    background-size: cover;
+}
+
+.strongman p {
+    text-align: right;
+    padding-right: 10px;
+    color: #4f0b0b;
+    font-family: 'Sancreek', cursive;
+    font-size: 1.4em;
+}
+
+.swords {
+    background-image: url(swordswallower.PNG);
+    height: 100px;
+    margin: 8px;
+    height: 400px;
+    background-size: cover;
+}
+
+.swords p {
+    text-align: right;
+    padding-right: 10px;
+    color: #4f0b0b;
+    font-family: 'Sancreek', cursive;
+    font-size: 1.4em;
+}
+
+.tightrope {
+    background-image: url(tightrope.PNG);
+    height: 100px;
+    margin: 8px;
+    height: 400px;
+    background-size: cover;
+}
+
+.tightrope p {
+    text-align: right;
+    padding-right: 10px;
+    color: #4f0b0b;
+    font-family: 'Sancreek', cursive;
+    font-size: 1.4em;
+}
+
+.trapeze {
+    background-image: url(trapeze.PNG);
+    height: 100px;
+    margin: 8px;
+    height: 400px;
+    background-size: cover;
+}
+
+.trapeze p {
+    text-align: right;
+    padding-right: 10px;
+    color: #4f0b0b;
+    font-family: 'Sancreek', cursive;
+    font-size: 1.4em;
+}
             
             /* sm */
             @media (min-width: 576px) {
@@ -241,9 +455,10 @@ a {
             @media (min-width: 768px) {
                 .menubar {
                     height: 200px;
+                    padding-top: 20px;
                 }
                 
-                a {
+                .menubar a {
                     font-size: 1.4em;
                 }
                 
@@ -263,6 +478,7 @@ a {
                 
                 .pricelist {
                     height: 680px;
+                    margin-top: -20px;
                 }
                 
                 .pricelist h2 {
@@ -286,6 +502,7 @@ a {
                 
                 #bookinginfo h1 {
                     padding-top: 15px;
+                    font-size: 2.3em;
                 }
                 
                 .boookingslink {
@@ -293,15 +510,20 @@ a {
                     padding-top: 20px;
                     font-size: 2.5em;
                 }
+                
+                .booknow {
+                    height: 550px;
+                }
             }
             
             /* lg */
             @media (min-width: 992px) {
                  .menubar {
                     height: 200px;
+                    padding-top: 20px;
                 }
                 
-                  a {
+                 .menubar a {
                     font-size: 1.6em;
                 }
                 
@@ -320,6 +542,7 @@ a {
                 }
                 .pricelist {
                     height: 680px;
+                    margin-top: -20px;
                 }
                 
                 .pricelist h2 {
@@ -343,6 +566,7 @@ a {
                 
                  #bookinginfo h1 {
                     padding-top: 15px;
+                     font-size: 2.8em;
                 }
                 
                  .boookingslink {
@@ -350,15 +574,20 @@ a {
                     padding-top: 20px;
                     font-size: 2.5em;
                 }
+                
+                .booknow {
+                    height: 570px;
+                }
             }
             
             /* xl */
             @media (min-width: 1200px) {
                 .menubar {
                     height: 200px;
+                    padding-top: 20px;
                 }
                 
-                  a {
+                .menubar a {
                     font-size: 1.8em;
                 }
                 
@@ -378,6 +607,7 @@ a {
                 
                 .pricelist {
                     height: 680px;
+                    margin-top: -20px;
                 }
                 
                 .pricelist h2 {
@@ -401,6 +631,7 @@ a {
                 
                  #bookinginfo h1 {
                     padding-top: 15px;
+                    font-size: 2.8em; 
                 }
                 
                  .boookingslink {
@@ -408,4 +639,9 @@ a {
                     padding-top: 20px;
                     font-size: 2.5em;
                 }
+                
+                .booknow {
+                    height: 590px;
+                }
             }
+
