@@ -528,6 +528,18 @@ width: 150px;
 input[type=submit]:hover {
   background-color: #412860;
 }
+
+.shows a:hover{
+    color: #412860;
+}
+
+.acts a:hover{
+    color: #412860;
+}
+
+.prices a:hover{
+    color: #412860;
+}
          
             /* sm */
             @media (min-width: 576px) {
