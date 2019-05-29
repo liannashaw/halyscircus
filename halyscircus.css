@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Ewert|Fredericka+the+Great|Sanchez|Sancreek|Spectral+SC&display=swap');
 
-
 div {
    outline: #161616 solid 8px; 
 }
@@ -15,6 +14,10 @@ body {
     background-image: url(backroundstripes.jpg);
     background-position: center;
     padding-top: 10px;
+}
+
+.logo {
+    
 }
             
 .carousel {
@@ -85,6 +88,7 @@ body {
     font-size: 3em;
     font-family: 'Ewert', cursive;
     color: #d1c5a3;
+    height: 50px;
 }
            
 .shows a  {
@@ -193,6 +197,7 @@ body {
     text-align: center;
     font-size: 3em;
     font-family: 'Ewert', cursive;
+    height: 20px
 }
 
 .booknowlink {
@@ -232,7 +237,7 @@ body {
 
 .booknow {
     background-color: #4f0b0b;
-    height: 500px;
+    height: 840px;
     background-image: url(vintagetexture.PNG);
     background-blend-mode: overlay;
     margin-top: -38px;
@@ -243,6 +248,7 @@ body {
     font-size: 3em;
     font-family: 'Ewert', cursive;
     color: #d1c5a3;
+    height: 15px;
     
 }
 
@@ -283,7 +289,7 @@ body {
 .actspage p {
     font-size: 3em;
     font-family: 'Ewert', cursive;
-    color: #d1c5a3;;
+    color: #d1c5a3;
     text-align: center;
 }
 
@@ -445,7 +451,76 @@ body {
     font-family: 'Sancreek', cursive;
     font-size: 1.4em;
 }
-            
+
+.container {
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;   
+  width: 60%;
+}
+
+input[type=submit] {
+  background-color: #060314;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: -10px;
+  padding: 6px;
+}
+
+.center{
+width: 150px;
+  margin: 40px auto;
+  
+}
+
+.booknow h2 {
+    color: #d1c5a3;
+    font-size: 1.8em;
+    font-family: 'Sancreek', cursive;
+    padding-left: 30px;
+    text-decoration: underline;
+}
+
+.booknow h3 {
+    font-size: 1em;
+    color: #d1c5a3;
+    padding-left: 10px;
+    font-family: 'Sanchez', serif;
+}
+
+.locations {
+    text-align: center;
+    padding-top: 15px;
+    color: #060314;
+    font-size: 1.2em;
+    font-family: 'Sancreek', cursive;
+}
+
+.container2 { 
+    text-align: right;
+}
+
+.container3 {
+    text-align: center;
+}
+
+.container3 input[type=submit] {
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 1.6em;
+    color: #d1c5a3;
+}
+
+input[type=submit]:hover {
+  background-color: #412860;
+}
+         
             /* sm */
             @media (min-width: 576px) {
                 
@@ -466,12 +541,12 @@ body {
                       height: 400px;
                 }
                 
-                h1 {
+                .pricelist h1 {
                     height: 80px;
                     font-size: 3em;
                 }
                 
-                h2 {
+                #bookinginfo h2 {
                     height: 50px;
                     font-size: 2em;
                 }
@@ -512,7 +587,23 @@ body {
                 }
                 
                 .booknow {
-                    height: 550px;
+                    height: 1020px;
+                }
+                
+                input[type=text], select, textarea {
+                    height: 25px;
+                }
+                
+                .locations {
+                    font-size: 1.6em;
+                }
+                
+                .booknow h2 {
+                    font-size: 2em;
+                }
+                
+                .booknow h3 {
+                    font-size: 1.4em;
                 }
             }
             
@@ -576,8 +667,31 @@ body {
                 }
                 
                 .booknow {
-                    height: 570px;
+                    height: 1090px;
                 }
+                
+                input[type=text], select, textarea {
+                    height: 30px;
+                }
+                
+                 .locations {
+                    font-size: 1.6em;
+                }
+                
+                 .booknow h2 {
+                    font-size: 2em;
+                }
+                
+                .booknow h3 {
+                    font-size: 1.4em;
+                }
+                
+                .container3 input[type=submit] {
+                    padding: 12px;
+                    margin-top: 10px;
+                    font-size: 2em;
+                }
+                
             }
             
             /* xl */
@@ -641,6 +755,31 @@ body {
                 }
                 
                 .booknow {
-                    height: 590px;
+                    height: 1090px;
                 }
+                
+                input[type=text], select, textarea {
+                    height: 30px;
+                }
+                
+                 .locations {
+                    font-size: 1.6em;
+                }
+                
+                 .booknow h2 {
+                    font-size: 2em;
+                }
+                
+                .booknow h3 {
+                    font-size: 1.4em;
+                }
+                
+                              
+                .container3 input[type=submit] {
+                    padding: 15px;
+                    margin-top: 10px;
+                    font-size: 2em;
+                }
+                
             }
+
