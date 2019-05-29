@@ -17,7 +17,15 @@ body {
 }
 
 .logo {
-    
+    background-image: url(logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 75%;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
             
 .carousel {
@@ -537,6 +545,11 @@ input[type=submit]:hover {
                     font-size: 1.4em;
                 }
                 
+                .logo {
+                    height: 115px;
+                    width: 60%;
+                }
+                
                 .carousel {
                       height: 400px;
                 }
@@ -616,6 +629,11 @@ input[type=submit]:hover {
                 
                  .menubar a {
                     font-size: 1.6em;
+                }
+                
+                .logo {
+                    height: 115px;
+                    width: 40%;
                 }
                 
                 .carousel {
@@ -704,6 +722,13 @@ input[type=submit]:hover {
                 .menubar a {
                     font-size: 1.8em;
                 }
+                
+                .logo {
+                    height: 125px;
+                    width: 40%;
+                    margin-top: 5px;
+                }
+                
                 
                 .carousel {
                       height: 600px;
